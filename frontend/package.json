@@ -1,0 +1,1 @@
+{\n  "name": "transportadora-frontend",\n  "version": "1.0.0",\n  "private": true,\n  "dependencies": {\n    "react": "^18.2.0",\n    "react-dom": "^18.2.0",\n    "react-router-dom": "^6.4.0",\n    "axios": "^1.4.0"\n  },\n  "scripts": {\n    "start": "vite",\n    "build": "vite build"\n  },\n  "devDependencies": {\n    "vite": "^5.0.0"\n  }\n}

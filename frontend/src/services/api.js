@@ -1,0 +1,1 @@
+import axios from 'axios';\n\nconst api = axios.create({ baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000' });\n\nexport function setToken(token) { api.defaults.headers.common['Authorization'] = `Bearer ${token}`; }\n\nexport default api;\n
